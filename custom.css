@@ -1,0 +1,22 @@
+
+iframe{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 100;
+    min-height: 400px;
+    background-color: #DFDFDF;
+    /* width: auto; */
+    scroll-behavior: smooth;
+    width: 320px;
+    display: block !important;
+    margin-right: 30px;
+    height: auto;
+}
+
+.iframe-collapsed{
+    height: 50px;
+    min-height: 50px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
